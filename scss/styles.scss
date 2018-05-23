@@ -1,0 +1,94 @@
+$font-stack: 'Open Sans', sans-serif;
+$font-head: 'Limelight', cursive;
+$font-questions: 'Play', sans-serif;
+$color-font: white;
+$color-button: #cf0033;
+$color-shadow: black; 
+
+
+ .container-fluid{
+     padding: 0%;
+     margin: 0;
+
+    .section {
+        background-image: url("../img/circles.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        color: $color-font;
+        
+        .row{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .col-12{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner h1 {
+            text-align: center;
+            padding: 7vh 0;
+            font-size: 7vh;
+            font-family: $font-head;
+            text-shadow: 0 0 3px $color-shadow;
+            background-color: $color-shadow;
+        }
+
+        .form-group {
+            width: 50%;
+            margin: auto;
+            padding-top: 7vh;
+
+            label {
+                font-size: 4vh;
+                font-family: $font-questions;
+                width: 100%;
+                text-align: center;
+                color: $font-questions;
+                text-shadow: 0 0 10px $color-shadow;
+                font-weight: 900
+            }
+        }
+
+        .btn {
+            display: block !important;
+            margin: auto;
+            margin-top: 5vh;
+            background-color: $color-button;
+            color: $color-font;
+        }
+
+        .titleName {
+            margin: 5vh 0;
+            font-family: $font-stack;
+            text-align: center;
+            font-size: 5vh;
+            color: $color-font;
+            text-shadow: 0 0 10px $color-shadow;
+            font-weight: 900;
+        }
+
+        .answer {
+            margin-top: 10vh;
+            text-align: center;
+            font-size: 5vh;
+            color: $color-font;
+            text-shadow: 0 0 10px $color-shadow;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+// .answer {
+
+// }

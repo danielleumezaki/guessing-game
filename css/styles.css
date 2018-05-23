@@ -1,0 +1,56 @@
+.container-fluid {
+  padding: 0%;
+  margin: 0; }
+  .container-fluid .section {
+    background-image: url("../img/circles.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white; }
+    .container-fluid .section .row {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    .container-fluid .section .col-12 {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    .container-fluid .section .banner h1 {
+      text-align: center;
+      padding: 7vh 0;
+      font-size: 7vh;
+      font-family: "Limelight", cursive;
+      text-shadow: 0 0 3px black;
+      background-color: black; }
+    .container-fluid .section .form-group {
+      width: 50%;
+      margin: auto;
+      padding-top: 7vh; }
+      .container-fluid .section .form-group label {
+        font-size: 4vh;
+        font-family: "Play", sans-serif;
+        width: 100%;
+        text-align: center;
+        color: "Play", sans-serif;
+        text-shadow: 0 0 10px black;
+        font-weight: 900; }
+    .container-fluid .section .btn {
+      display: block !important;
+      margin: auto;
+      margin-top: 5vh;
+      background-color: #cf0033;
+      color: white; }
+    .container-fluid .section .titleName {
+      margin: 5vh 0;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      font-size: 5vh;
+      color: white;
+      text-shadow: 0 0 10px black;
+      font-weight: 900; }
+    .container-fluid .section .answer {
+      margin-top: 10vh;
+      text-align: center;
+      font-size: 5vh;
+      color: white;
+      text-shadow: 0 0 10px black; }
